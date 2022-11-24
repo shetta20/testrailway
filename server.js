@@ -15,4 +15,4 @@ app.get('/', (req,res)=> {
 res.send("Getting root");
 })
 
-app.listen(3000);
+app.listen(3001);

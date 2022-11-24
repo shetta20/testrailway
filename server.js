@@ -15,4 +15,4 @@ app.get('/', (req,res)=> {
 res.send("Getting root");
 })
 
-app.listen(PORT);
+app.listen(process.env.PORT);
